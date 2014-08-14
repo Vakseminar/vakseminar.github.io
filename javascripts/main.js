@@ -2,10 +2,9 @@
 $(document).ready(function(){
 
   function scrollTela(id) {
-    var posicao = $(id).offset().top;
+    var posicao = $(id).offset().top - 260;
     $('html, body').animate({ scrollTop: posicao }, 'slow');
   }
-
 
   // scroll
   $('a[href^=\'#\']').click(function () {
@@ -14,8 +13,9 @@ $(document).ready(function(){
       return false;
   });
 
-
-  // $(this).scroll(function() {
-  // });
+  var page = window.location.hash;
+  if(page) {
+    scrollTela(page);
+  }
 
 });
