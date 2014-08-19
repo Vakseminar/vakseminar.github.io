@@ -1,0 +1,45 @@
+---
+- name: SVO Vakopleiding Food
+  url: http://www.svo.nl
+  title: dé opleidingspartner voor vakmensen en bedrijven in de foodbranche
+  logo: SVO-vakopleiding-food.jpg
+
+- name: Shopforce
+  url: http://www.shopforce.nl
+  title: local e-commerce solutions
+  logo: Shopforce.jpg
+
+- name: Bens Verspromotie
+  url: http://www.bensverspromotie.nl
+  title: het reclamebureau voor verswinkels
+  logo: Bens-verspromotie.jpg
+
+- name: Weidelco Atsma Handstede
+  url: http://www.weidelco-handstede.nl
+  title: groothandel met een toegevoegde waarde voor versondernemers
+  logo: Weidelco-Atsma.jpg
+
+- name: de Groot - Verburg Kaas
+  url: http://www.degroot-verburg.nl
+  title: kaasleverancier van diverse kaasspecialiteiten afgestemd op kaasspeciaalzaken
+  logo: de-groot-verburg.jpg
+
+- name: Fromagerie Europa
+  url: http://www.fromagerie-europa.nl
+  title: 
+  logo: fromagerie-europa.jpg
+
+- name: Wijnimport Jos Rijnaarts
+  url: http://www.josrijnaarts.nl
+  title: 
+  logo: wijnimport-jos-rijnaarts.jpg
+
+- name: Haan reclamewerk
+  url: http://www.haanreclamewerk.nl
+  title: "gespecialiseerd in gevel-, autoreclame en meer"
+  logo: haan-reclamewerk.jpg
+
+- name: "Roosjen Sign &amp; Design"
+  url: http://www.roosjen.nl
+  title: "een totaalleverancier voor gevelreclame, autobelettering, reclameborden, zuilen, bewegwijzering, stickers, kleding(bedrukking) en andere denkbare reclameuitingen"
+  logo: Roosjen-logo.jpg

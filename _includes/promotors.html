@@ -1,0 +1,9 @@
+<ul>
+	{% for promotor in site.data.promotors %}
+  <li>
+	    <a href="{{ promotor.url }}" target="_blank">
+			<img src="images/logos/{{ promotor.logo }}" title="{{ promotor.name }}: {{ promotor.title }}" alt="{{ promotor.name }}: {{ promotor.title }}"/>
+    </a>
+  </li>
+{% endfor %}
+</ul>
