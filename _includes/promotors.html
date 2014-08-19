@@ -1,11 +1,14 @@
-<h2>HET VAKSEMINAR IS EEN GEZAMENLIJK INITIATIEF VAN</h2>
-<p>Het vakseminar voor verswinkels is een gezamenlijk initiatief van diverse bedrijven die de handen ineen slaan om verswinkels te ondersteunen bij de concurrentie tegen het grootwinkelbedrijf.</p>
+<aside class="text">
+	<h2>HET VAKSEMINAR IS EEN GEZAMENLIJK INITIATIEF VAN</h2>
+	<p>Het vakseminar voor verswinkels is een gezamenlijk initiatief van diverse bedrijven die de handen ineen slaan om verswinkels te ondersteunen bij de concurrentie tegen het grootwinkelbedrijf.</p>
+</aside>
+
 <ul>
 	{% for promotor in site.data.promotors %}
-  <li>
-	    <a href="{{ promotor.url }}" target="_blank">
+	<li>
+		<a href="{{ promotor.url }}" target="_blank">
 			<img src="images/logos/{{ promotor.logo }}" title="{{ promotor.name }}: {{ promotor.title }}" alt="{{ promotor.name }}: {{ promotor.title }}"/>
-    </a>
-  </li>
-{% endfor %}
+		</a>
+	</li>
+	{% endfor %}
 </ul>
