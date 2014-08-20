@@ -19,13 +19,14 @@ layout: default
 							<li><span>Kaas- en delicatessenwinkels</span></li>
 						</ul>
 					</div>
-					<div class="info last">
+					<div class="info last" itemscope="itemscope" itemtype="http://schema.org/Event">
 						<h3>WANNEER EN WAAR?</h3>
-						<p>Donderdag 14 oktober a.s. aanvang 19:30 uur</p>
-						<address>
-							<ul>
-								<li><a href="http://www.hoteldecantharel.nl" target="_blank"></a>Hotel Van der Valk "De Cantharel"</a></li>
-								<li>Van Golsteinlaan 20, 7339 GT Apeldoorn</li>
+						<p itemprop="name">Vakseminar voor ambachtelijke verswinkels</p>
+						<p itemprop="startDate" datetime="2014-10-14T19:30">Donderdag 14 oktober a.s. aanvang 19:30 uur</p>
+						<address itemprop="location">
+							<ul itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+								<li><a href="http://www.hoteldecantharel.nl" itemprop="url" target="_blank"><span itemprop="name">Hotel Van der Valk "De Cantharel"</span></a></li>
+								<li><span itemprop="streetAddress">Van Golsteinlaan 20</span>, <span itemprop="postalCode">7339 GT</span> <span itemprop="addressLocality">Apeldoorn</span></li>
 								<li>{% include drivingDirectionsForm.html %}</li>
 							</ul>
 						</address>
