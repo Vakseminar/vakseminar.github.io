@@ -52,7 +52,11 @@ a { text-decoration: none; color: #003A78; }
 #home .content .sidebar ul span { margin-left: 20px; color: #626567; }
 #home .content .sidebar address { font-style: normal; }
 #home .content .sidebar address ul { list-style: none; color: #626567; }
-#home .content .sidebar address a { text-decoration: underline; }
+#home .content .sidebar address ul li a { text-decoration: underline; }
+#home .content .sidebar address ul li span { margin-left: 0px; }
+#home .content .sidebar address form { margin-bottom: 20px; padding-bottom: 20px; }
+#home .content .sidebar address form input[type=text] {width: 70%;}
+#home .content .sidebar address form input[type=submit] { float: right; margin: 5px; padding: 5px 10px; border: 0; background-color: #be9f56; font-weight: bold; font-size: .91em; color: #fff; }
 
 #home .content .sidebar .banner a.sign-up { display: block; width: 345px; height: 166px; background: url(../images/banner1.png) no-repeat; text-indent: -9999em; overflow: hidden; }
 
@@ -68,7 +72,6 @@ a { text-decoration: none; color: #003A78; }
 #home .speakers-topics ul li figure figcaption { margin-left: 105px; line-height: 13px; }
 #home .speakers-topics ul li figure figcaption h4 { margin-bottom: 10px; color: #be9f56; }
 #home .speakers-topics ul li figure figcaption p { font-size: .75em; }
-
 
 /* --- sign-up --- */
 #sign-up .content .limit { width: 760px; padding-bottom: 40px; padding-right: 40px; }
