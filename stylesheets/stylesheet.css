@@ -65,7 +65,7 @@ a { text-decoration: none; color: #003A78; }
 #home .speakers-topics h2 { position: absolute; width: 750px; margin-top: -31px; padding: 8px 50px; background-color: #be9f56; font-size: 1em; color: #fff; }
 #home .speakers-topics ul { list-style: none; padding: 0 50px; overflow: hidden; }
 #home .speakers-topics ul li { float: left; width: 250px; padding-top: 25px; background: url(../images/bg-title-speak.png) no-repeat; }
-#home .speakers-topics ul li a { color: #626567; }
+#home .speakers-topics ul li a { color: #be9f56; }
 #home .speakers-topics ul li figure { overflow: hidden; padding-right: 10px; }
 #home .speakers-topics ul li:last-child figure { padding-right: 0; }
 #home .speakers-topics ul li figure img { float: left; }
